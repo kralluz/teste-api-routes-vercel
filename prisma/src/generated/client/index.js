@@ -139,7 +139,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\klz\\Documents\\ConnectHub\\prisma\\src\\generated\\client",
+      "value": "C:\\Users\\klz\\Documents\\teste api routes vercel\\prisma\\src\\generated\\client",
       "fromEnvVar": null
     },
     "config": {
@@ -156,8 +156,7 @@ const config = {
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../../../.env",
-    "schemaEnvPath": "../../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../..",
   "clientVersion": "5.8.1",
@@ -166,6 +165,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
@@ -175,7 +175,8 @@ const config = {
     }
   },
   "inlineSchema": "Z2VuZXJhdG9yIGNsaWVudCB7CiAgcHJvdmlkZXIgPSAicHJpc21hLWNsaWVudC1qcyIKICBvdXRwdXQgICA9ICIuL3NyYy9nZW5lcmF0ZWQvY2xpZW50Igp9CgpkYXRhc291cmNlIGRiIHsKICBwcm92aWRlciA9ICJwb3N0Z3Jlc3FsIgogIHVybCAgICAgID0gZW52KCJEQVRBQkFTRV9VUkwiKQp9Cgptb2RlbCBDbGllbnQgewogIGlkICAgICAgICAgSW50ICAgICAgIEBpZCBAZGVmYXVsdChhdXRvaW5jcmVtZW50KCkpCiAgbmFtZSAgICAgICBTdHJpbmcgICAgCiAgZW1haWwgICAgICBTdHJpbmcgICAgQHVuaXF1ZQogIHBhc3N3b3JkICAgU3RyaW5nCiAgcGhvbmUgICAgICBTdHJpbmcgICAgQHVuaXF1ZQogIGNyZWF0ZWRfYXQgRGF0ZVRpbWUgIEBkZWZhdWx0KG5vdygpKQogIHVwZGF0ZWRfYXQgRGF0ZVRpbWU/CiAgY29udGF0b3MgICBDb250YWN0W10KfQoKbW9kZWwgQ29udGFjdCB7CiAgaWQgICAgICAgICAgICBJbnQgICAgICBAaWQgQGRlZmF1bHQoYXV0b2luY3JlbWVudCgpKQogIGNsaWVudF9pZCAgICAgSW50CiAgbmFtZSAgICAgICAgICBTdHJpbmcKICBlbWFpbCAgICAgICAgIFN0cmluZz8KICBwaG9uZSAgICAgICAgIFN0cmluZyAgQHVuaXF1ZQogIGNyZWF0ZWRfYXQgRGF0ZVRpbWUgQGRlZmF1bHQobm93KCkpCiAgdXBkYXRlZF9hdCBEYXRlVGltZT8KICBjbGllbnQgICAgICAgIENsaWVudD8gICBAcmVsYXRpb24oZmllbGRzOiBbY2xpZW50X2lkXSwgcmVmZXJlbmNlczogW2lkXSkKfQo=",
-  "inlineSchemaHash": "ffdbf58d23d7fff891116113dd3fd587ebcd6c9805ec83d724ac5bbccd9d1616"
+  "inlineSchemaHash": "ffdbf58d23d7fff891116113dd3fd587ebcd6c9805ec83d724ac5bbccd9d1616",
+  "noEngine": false
 }
 
 const fs = require('fs')

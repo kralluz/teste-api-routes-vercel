@@ -3,7 +3,7 @@ import { api } from "../services/api";
 import { HeaderComponent } from "./header";
 import { Link } from "./Link";
 
-export const HomePage = () => {
+const HomePage = () => {
     const [apiData, setApiData] = useState([]);
 
     const fetchData = async () => {
@@ -32,3 +32,5 @@ export const HomePage = () => {
         </>
     );
 };
+
+export default HomePage;

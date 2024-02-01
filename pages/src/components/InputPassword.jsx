@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MdVisibility, MdVisibilityOff } from "react-icons/md";
 
-export const InputPassword = ({ label, register, placeholder, error }) => {
+const InputPassword = ({ label, register, placeholder, error }) => {
     const [IsHidden, setIsHidden] = useState(true);
 
     return (
@@ -25,3 +25,5 @@ export const InputPassword = ({ label, register, placeholder, error }) => {
         </>
     );
 };
+
+export default InputPassword;

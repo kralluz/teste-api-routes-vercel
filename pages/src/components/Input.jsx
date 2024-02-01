@@ -1,4 +1,4 @@
-export const Input = ({ label, name, type, placeholder, register, error }) => {
+const Input = ({ label, name, type, placeholder, register, error }) => {
     return (
         <div>
             <label htmlFor="email">{label}</label>
@@ -12,3 +12,5 @@ export const Input = ({ label, name, type, placeholder, register, error }) => {
         </div>
     );
 };
+
+export default Input;

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "./src/components/Link";
 import { RegisterForm } from "./src/components/RegisterForm";
 
-export const RegisterPage = () => {
+const RegisterPage = () => {
     return (
         <>
             <h1>register Page</h1>

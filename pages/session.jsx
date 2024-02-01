@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "./src/components/Link";
 
-export const SessionPage = () => {
+const SessionPage = () => {
     return (
         <>
             <h1>Login Page</h1>

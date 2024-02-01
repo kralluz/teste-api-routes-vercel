@@ -1,4 +1,4 @@
-export const HeaderComponent = () => {
+const HeaderComponent = () => {
     return (
         <header>
             <h1>Connect Hub</h1>
@@ -6,3 +6,5 @@ export const HeaderComponent = () => {
         </header>
     );
 }
+
+export default HeaderComponent;
