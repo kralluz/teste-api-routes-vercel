@@ -14,9 +14,17 @@ export class ClientController {
 
     static async readAllClients(
         req: Request,
-        res: Response<ClientResponse>
+        res: Response<any>
     ): Promise<Response<any>> {
-        const response = await ClientService.readAllClients();
+        const response = [{
+            id: 1,
+            name: "Teste",
+            email: "admin@test"
+        }, {
+            id: 2,
+            name: "Teste 2",
+            email: "admin2@test"
+        }]
         return res.status(200).json(response);
     }
 
