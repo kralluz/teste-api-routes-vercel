@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { api } from "../services/api";
-import { HeaderComponent } from "./header";
-import { Link } from "./Link";
+import  Link  from "./Link";
 
 const HomePage = () => {
     const [apiData, setApiData] = useState([]);
@@ -20,7 +19,6 @@ const HomePage = () => {
     }, []);
     return (
         <>
-            <HeaderComponent />
             <h1>Clientes</h1>
             <h3>HomePage</h3>
             <ul>
